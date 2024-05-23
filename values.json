@@ -1,0 +1,6 @@
+{
+  "configFilesAsText": {
+    "config_develop.json": "{\n  \"current_env\": \"gcp-development-minikube\",\n  \"Directory_Type\": \"folder\",\n  \"Input_Environment_Type\": \"gcs\",\n  \"Input_Environment_Location\": \"raw-data\",\n  \"Output_Environment_Type\": \"bigquery\",\n  \"Output_Environment_Location\": \"test_ds\",\n  \"report_location\": \"reports\"\n}",
+    "config_prod.json": "{\n  \"current_env\": \"gcp-Prod\",\n  \"Directory_Type\": \"folder\",\n  \"Input_Environment_Type\": \"gcs\",\n  \"Input_Environment_Location\": \"raw-data\",\n  \"Output_Environment_Type\": \"bigquery\",\n  \"Output_Environment_Location\": \"data_ds\",\n  \"report_location\": \"reports\"\n}"
+  }
+}
