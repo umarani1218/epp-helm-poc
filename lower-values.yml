@@ -1,0 +1,29 @@
+configFilesAsText:
+    config_develop.xml: |
+      <config>
+        <environment>development</environment>
+        <database>
+          <host>localhost</host>
+          <port>3306</port>
+          <username>dev_user</username>
+          <password>dev_password</password>
+        </database>
+        <logging>
+          <level>debug</level>
+          <file>/var/log/development.log</file>
+        </logging>
+      </config>
+    config_prod.xml: |
+      <config>
+        <environment>production</environment>
+        <database>
+          <host>db.example.com</host>
+          <port>5432</port>
+          <username>prod_user</username>
+          <password>prod_password</password>
+        </database>
+        <logging>
+          <level>info</level>
+          <file>/var/log/production.log</file>
+        </logging>
+      </config>
